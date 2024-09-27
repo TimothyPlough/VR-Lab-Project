@@ -27,8 +27,8 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 10077,
-      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\night\\Documents\\G",
+      "PayloadLength": 8419,
+      "PayloadDebugContentSnippet": "-a=\"C:\\Users\\Timot\\VR Lab Proj",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
@@ -46,6 +46,9 @@
         "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.Collections.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.RNSM.dll",
         "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.dll",
         "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.Ngo1.dll",
         "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Common.dll",
@@ -80,9 +83,12 @@
         "Library/ScriptAssemblies/Unity.Services.Multiplay.dll",
         "Library/ScriptAssemblies/Unity.Services.Multiplay.Sqp.dll",
         "Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll",
+        "Library/ScriptAssemblies/Unity.Services.QoS.dll",
+        "Library/ScriptAssemblies/Unity.Services.Relay.dll",
         "Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll",
         "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.Tutorials.Core.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -310,6 +316,15 @@
       "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.RNSM.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Multiplayer.Tools.Adapters.dll"
     },
     {
@@ -412,6 +427,12 @@
       "File": "Library/ScriptAssemblies/Unity.Services.Multiplay.Wire.Internal.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Services.QoS.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Services.Relay.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Services.Wire.Internal.dll"
     },
     {
@@ -419,6 +440,9 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Tutorials.Core.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
@@ -468,6 +492,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aESkipCompile.dag.json",
-  "PayloadsFile": "C:/Users/night/Documents/Github/VR Safety Lab/VR-Lab-Project/Library/Bee/1900b0aESkipCompile.dag.payloads",
+  "PayloadsFile": "C:/Users/Timot/VR Lab Project/Library/Bee/1900b0aESkipCompile.dag.payloads",
   "RelativePathToRoot": "../.."
 }

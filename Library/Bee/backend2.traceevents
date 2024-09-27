@@ -1,353 +1,393 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1726783573898420, "dur":17703, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783573916130, "dur":109, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783573916282, "dur":299, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783573916598, "dur":2926, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783573919525, "dur":2411657, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783576331183, "dur":204, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783576331588, "dur":2077, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1726783573916719, "dur":2813, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726783573919535, "dur":4499, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726783573955559, "dur":1191, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1726783573956755, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726783573956857, "dur":738, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1726783573957596, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1726783573958085, "dur":338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playere0be7788-inputdata.json" }}
-,{ "pid":12345, "tid":1, "ts":1726783573956754, "dur":1830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726783573959392, "dur":82, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1726783573959972, "dur":115563, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726783574080268, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726783574080268, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/VR Lab Project_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726783574080360, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1726783574081386, "dur":2249839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726783573916725, "dur":2812, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726783573919539, "dur":872, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726783573920411, "dur":3627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726783573924047, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1726783573924831, "dur":2740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1726783573927573, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":2, "ts":1726783573927572, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1726783573927997, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1726783573929463, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1726783573929461, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1726783573929588, "dur":1651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1726783573931296, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573931294, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573931739, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573933398, "dur":3025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573936481, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573939272, "dur":3046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573942388, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573947337, "dur":4643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Multiplay.Sqp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573952052, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573957634, "dur":7130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Networking.Transport.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573964850, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573968681, "dur":6292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573975053, "dur":10097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573985250, "dur":5436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573990966, "dur":8245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1726783573999272, "dur":2331908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726783573916819, "dur":2746, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726783573919567, "dur":912, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726783573920479, "dur":3570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726783573924062, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1726783573924051, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1726783573943130, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1726783573945374, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573948924, "dur":4401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573958265, "dur":77, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1726783573953399, "dur":5493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573958960, "dur":6922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573965956, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573969785, "dur":8982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573978848, "dur":7015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573985936, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573990984, "dur":7352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1726783573998472, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1726783574001003, "dur":2330195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726783573916756, "dur":2792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726783573919550, "dur":1000, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726783573920550, "dur":3515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726783573924079, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1726783573924066, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1726783573936572, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1726783573938274, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573941206, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573945649, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573949641, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573958245, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1726783573953692, "dur":4974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573958732, "dur":6666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573965477, "dur":9258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573974826, "dur":9601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573984498, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573989685, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1726783573993936, "dur":6804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1726783574000803, "dur":2330408, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726783573916754, "dur":2788, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726783573919544, "dur":1022, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726783573920566, "dur":3476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726783573924054, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1726783573924042, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1726783573929580, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1726783573931052, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1726783573931692, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1726783573933286, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573936669, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573939476, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573943015, "dur":3863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/websocket-sharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573946952, "dur":3666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573950704, "dur":4898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573955701, "dur":6899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573962672, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573972704, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573982143, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1726783573979666, "dur":6828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573986567, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573991309, "dur":7539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1726783573998923, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1726783574001381, "dur":2329849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726783573916784, "dur":2769, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726783573919555, "dur":1001, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726783573920556, "dur":3487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1726783573924043, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1726783573930019, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1726783573932055, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/VR Lab Project_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":6, "ts":1726783573932519, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":6, "ts":1726783573935189, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573937172, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573939922, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573943690, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573948501, "dur":4564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573953136, "dur":5246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573958457, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573958564, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573963172, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573969164, "dur":9258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573978633, "dur":6752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573985464, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573990247, "dur":4165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1726783573994485, "dur":5239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1726783573999790, "dur":2331431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726783573916808, "dur":2750, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726783573919560, "dur":861, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726783573920421, "dur":3642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726783573924065, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1726783573945618, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1726783573943713, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1726783573946487, "dur":4999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573951568, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Multiplay.Wire.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573957411, "dur":4150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573961630, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573967473, "dur":5591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573973133, "dur":6945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573980154, "dur":6827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573987045, "dur":5171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573992300, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573992298, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783573992435, "dur":11514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1726783574004010, "dur":2327175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726783573916840, "dur":2731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726783573919573, "dur":918, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726783573920492, "dur":3559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726783573924059, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1726783573929936, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1726783573931603, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573931601, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573931899, "dur":4130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573936106, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573938449, "dur":3632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573942155, "dur":2815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573945047, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573948721, "dur":4158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573952947, "dur":6157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/unity-websocket-sharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573959404, "dur":6226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573965736, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573970578, "dur":8576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573982125, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1726783573979233, "dur":6864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573986171, "dur":5245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573991493, "dur":7189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1726783573998763, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1726783574001186, "dur":2330001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726783573916866, "dur":2708, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726783573919577, "dur":939, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726783573920516, "dur":3539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726783573924056, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1726783573951715, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726783573950316, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1726783573952280, "dur":5588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573957956, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573962850, "dur":5255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573968182, "dur":5170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573973427, "dur":7583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573981092, "dur":6520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573990782, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1726783573987713, "dur":5091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1726783573992877, "dur":6698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1726783573999642, "dur":2331537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726783573916892, "dur":2689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726783573919584, "dur":959, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726783573920543, "dur":3518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1726783573924074, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":10, "ts":1726783573924063, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1726783573944439, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":10, "ts":1726783573946697, "dur":4156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573950933, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Profiling.Core.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573956194, "dur":4185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573960448, "dur":5660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573966288, "dur":8232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573974601, "dur":7159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573981839, "dur":6127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573988063, "dur":5081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1726783573993225, "dur":7243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":10, "ts":1726783574000527, "dur":2330689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726783573916918, "dur":2670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726783573919590, "dur":420, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726783573920011, "dur":4058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1726783573924070, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1726783573926091, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1726783573927453, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1726783573928009, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":11, "ts":1726783573929283, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1726783573929416, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1726783573930845, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1726783573930956, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1726783573932758, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573936304, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573939040, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573941950, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573946198, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573951187, "dur":5336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Common.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573956599, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Netcode.Components.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573961202, "dur":6708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573967995, "dur":10982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573979051, "dur":10907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573990036, "dur":3972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1726783573994197, "dur":5717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1726783573999980, "dur":2331228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726783573916941, "dur":2650, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726783573919592, "dur":4454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1726783573924049, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1726783573936143, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1726783573937879, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573940532, "dur":4267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573944872, "dur":4888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573949819, "dur":4129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573954011, "dur":5723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573959817, "dur":7068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573967023, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573971756, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573980942, "dur":7325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573988341, "dur":5083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1726783573993500, "dur":6626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":12, "ts":1726783574000187, "dur":2331016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726783573916965, "dur":2633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726783573919598, "dur":4441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924304, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924408, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924474, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924538, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Multiplay.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924639, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924698, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924755, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Networking.Transport.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924889, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925151, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Components.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925246, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925311, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925376, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925438, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925505, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStats.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925595, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573925836, "dur":468, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573926306, "dur":236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\unity-websocket-sharp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573926543, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTestData.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573926625, "dur":338, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573926965, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927061, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Wire.Internal.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927190, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Multiplay.Wire.Internal.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927315, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Common.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927406, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Profiling.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927493, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927750, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927848, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927900, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573927976, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573928323, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573928402, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573928634, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573928705, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573928773, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Multiplay.Sqp.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573928854, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573929025, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573929106, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Initialization.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573929175, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573929264, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Authentication.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573929423, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573930017, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTypes.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573930118, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573930395, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573930596, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573930688, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricEvents.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573930775, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
-,{ "pid":12345, "tid":13, "ts":1726783573931158, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\night\\Documents\\Github\\VR Safety Lab\\VR-Lab-Project\\Library\\PackageCache\\com.unity.burst@1.8.17\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":13, "ts":1726783573924051, "dur":7208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":13, "ts":1726783573935565, "dur":2390033, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":13, "ts":1726783576330039, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573916982, "dur":2621, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726783573919604, "dur":4449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1726783573924067, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1726783573924053, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1726783573930515, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":14, "ts":1726783573931889, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project.exe" }}
-,{ "pid":12345, "tid":14, "ts":1726783573933732, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573935665, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573938039, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573940319, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573944401, "dur":3682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573948157, "dur":4528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573952743, "dur":5450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573958336, "dur":5765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Multiplay.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573964209, "dur":7398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573971678, "dur":7698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573979448, "dur":7893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573987418, "dur":5090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1726783573992591, "dur":6439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":14, "ts":1726783573999085, "dur":2332098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726783573917003, "dur":2603, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726783573919607, "dur":4433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1726783573924053, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":15, "ts":1726783573924042, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":15, "ts":1726783573942586, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":15, "ts":1726783573945911, "dur":4512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Authentication.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573950480, "dur":4640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573955203, "dur":5670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573960943, "dur":5592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573966622, "dur":7169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573973863, "dur":9135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573983071, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573988924, "dur":4796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1726783573993864, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":15, "ts":1726783573999457, "dur":2331720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726783573917024, "dur":2589, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726783573919614, "dur":4444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726783573924061, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1726783573937512, "dur":2106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":16, "ts":1726783573939719, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573943862, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573947499, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573951798, "dur":5934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Wire.Internal.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573957816, "dur":4102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573961986, "dur":5043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573967105, "dur":4735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573971935, "dur":7807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573982156, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1726783573979819, "dur":6861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573986784, "dur":4833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1726783573991680, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":16, "ts":1726783573991679, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Build_Movement_Alpha/VR Lab Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":16, "ts":1726783573992268, "dur":6208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":16, "ts":1726783573998580, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Build_Movement_Alpha/VR Lab Project_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":16, "ts":1726783574001526, "dur":2329665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1726783576336289, "dur":973, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1727458056486259, "dur":611, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458056486901, "dur":22630, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458056509535, "dur":136, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458056509720, "dur":888, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458056515874, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1727458056510627, "dur":6859, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458056517487, "dur":10678896, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458067196384, "dur":246, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458067196630, "dur":111, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458067196746, "dur":70, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458067196837, "dur":83, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458067197103, "dur":10594, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1727458056511053, "dur":6453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056517509, "dur":924, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056518433, "dur":3839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056522273, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1727458056522622, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056522974, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056523030, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056523096, "dur":124, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Initialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056523095, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056547641, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Initialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056549500, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056552023, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056552097, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056552152, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056555759, "dur":4418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Samples.Utilities.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056560250, "dur":4198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStats.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056571951, "dur":96, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056564539, "dur":7568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572154, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572277, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572501, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572596, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572689, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572773, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572858, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056572957, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573037, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573120, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573209, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573285, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573394, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573546, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573615, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573685, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1727458056573771, "dur":6837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1727458056580646, "dur":10615748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056511080, "dur":6433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056517516, "dur":991, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056518507, "dur":3700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056522211, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1727458056522518, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056522640, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1727458056522803, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056522921, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056522993, "dur":79, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1727458056523073, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Authentication.dll" }}
+,{ "pid":12345, "tid":2, "ts":1727458056523073, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Services.Authentication.dll" }}
+,{ "pid":12345, "tid":2, "ts":1727458056566972, "dur":6058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Authentication.dll" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573097, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573197, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573271, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573374, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573453, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573636, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573720, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573719, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573818, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573914, "dur":3399, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1727458056573914, "dur":3400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1727458056577329, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1727458056580564, "dur":10615815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056511089, "dur":6431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056517523, "dur":1500, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056519024, "dur":3150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522186, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522177, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522324, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522430, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522611, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522739, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056522876, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056523010, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
+,{ "pid":12345, "tid":3, "ts":1727458056523009, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
+,{ "pid":12345, "tid":3, "ts":1727458056561476, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll" }}
+,{ "pid":12345, "tid":3, "ts":1727458056565209, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056571941, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056565270, "dur":6733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572052, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572226, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572339, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572510, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572602, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572710, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572790, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572889, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056572989, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573116, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573216, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573291, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573404, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573628, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573708, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573708, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1727458056573970, "dur":6272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1727458056580298, "dur":5631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1727458056585960, "dur":10610446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1727458056511140, "dur":6494, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1727458056517651, "dur":1168, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1727458056518819, "dur":3358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1727458056522177, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1727458056522494, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1727458056522724, "dur":463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1727458056523224, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
+,{ "pid":12345, "tid":4, "ts":1727458056523223, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
+,{ "pid":12345, "tid":4, "ts":1727458056579498, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Adapters.Ngo1.dll" }}
+,{ "pid":12345, "tid":4, "ts":1727458056581790, "dur":10614609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1727458056511043, "dur":6457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1727458056517503, "dur":943, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1727458056518447, "dur":3733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1727458056522180, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1727458056522459, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1727458056522788, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1727458056523136, "dur":295, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1727458056523135, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1727458056588709, "dur":6847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1727458056595586, "dur":10600807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1727458056511022, "dur":6472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1727458056517497, "dur":4670, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1727458056525619, "dur":38251, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":6, "ts":1727458056563873, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1727458056563989, "dur":13337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1727458056577505, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf28b64c0-inputdata.json" }}
+,{ "pid":12345, "tid":6, "ts":1727458056563873, "dur":13844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1727458056578128, "dur":381409, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1727458056964279, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1727458056964279, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1727458056964465, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1727458056965878, "dur":10230508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056511112, "dur":6416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056517532, "dur":1084, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056518616, "dur":3631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056522258, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1727458056522250, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1727458056522530, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056522655, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056522800, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1727458056522992, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1727458056523117, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1727458056523116, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1727458056573053, "dur":6665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Implementation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1727458056579781, "dur":4495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1727458056584321, "dur":10612083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056511164, "dur":6488, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056517663, "dur":1109, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056518772, "dur":3403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522187, "dur":185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522179, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522373, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522518, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522517, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522627, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522711, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522781, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056522885, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056523029, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056523083, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Adapters.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056523082, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056556888, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Adapters.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056561304, "dur":3823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056565208, "dur":76, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056565286, "dur":6605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" }}
+,{ "pid":12345, "tid":8, "ts":1727458056571945, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572064, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572235, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572317, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572486, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572570, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572640, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572717, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572821, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056572939, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573032, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573128, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573225, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573300, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573419, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573609, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1727458056573790, "dur":6541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1727458056580379, "dur":10616002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056511192, "dur":6477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056517672, "dur":955, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056518627, "dur":3554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522198, "dur":289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522187, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522488, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522577, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522669, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522747, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522849, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056522946, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056523014, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricEvents.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056523013, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056535006, "dur":5665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricEvents.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056540748, "dur":4236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056545051, "dur":3871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.QoS.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056548989, "dur":6550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056555603, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056557954, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricTestData.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056561895, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Relay.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056564826, "dur":7274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572150, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572271, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572521, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572608, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572808, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572898, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056572999, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573078, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573146, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573237, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573304, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573378, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573438, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573601, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573680, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573782, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573781, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1727458056573923, "dur":10199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1727458056584154, "dur":10612287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056511218, "dur":6459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056517681, "dur":988, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056518669, "dur":3510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522191, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522180, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522502, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522586, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522689, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522767, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522825, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056522929, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1727458056523039, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056523038, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056540388, "dur":4815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056545301, "dur":3454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056548851, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056552203, "dur":6573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Multiplay.Wire.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056558861, "dur":6375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/unity-websocket-sharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056565330, "dur":9747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Multiplay.dll" }}
+,{ "pid":12345, "tid":10, "ts":1727458056575144, "dur":5505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1727458056580686, "dur":10615712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056511246, "dur":6437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056517686, "dur":876, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056518562, "dur":3651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522221, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522371, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522607, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522600, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522750, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522840, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056522925, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1727458056523030, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056523029, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056544632, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056548640, "dur":3504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056552233, "dur":6629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Wire.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056558937, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056562673, "dur":2590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056565359, "dur":10160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1727458056575572, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1727458056579988, "dur":6540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1727458056586562, "dur":10609859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1727458056511266, "dur":6435, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1727458056517702, "dur":4471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1727458056522417, "dur":267, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056522685, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056522796, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056522894, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Multiplay.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523048, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkSolutionInterface.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523160, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523246, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Networking.Transport.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523455, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523740, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523838, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523904, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056523963, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524015, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Relay.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524107, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524165, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStats.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524243, "dur":230, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524473, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Netcode.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524702, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\unity-websocket-sharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524858, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Samples.Utilities.RNSM.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524914, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTestData.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056524972, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525198, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Samples.Utilities.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525263, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525316, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Wire.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525407, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Multiplay.Wire.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525492, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.Common.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525564, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Profiling.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525629, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056525837, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526017, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526118, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526175, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526229, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526282, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526619, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.QoS.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526747, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526805, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056526983, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458056527128, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\PackageCache\\com.unity.burst@1.8.17\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":12, "ts":1727458056522177, "dur":5135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":12, "ts":1727458056528629, "dur":10646228, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":12, "ts":1727458067179107, "dur":13424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458067179106, "dur":13426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1727458067192658, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056511383, "dur":6386, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056517770, "dur":4401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056522182, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056522411, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1727458056522575, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056522744, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056522907, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056523049, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.MetricTypes.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056523048, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056551744, "dur":5581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.MetricTypes.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056557388, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056558970, "dur":5147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056564184, "dur":7522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056571825, "dur":4622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1727458056580492, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1727458056576495, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1727458056580670, "dur":10615756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056511409, "dur":6375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056517785, "dur":4393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522178, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522330, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522430, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522422, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522524, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522607, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522606, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522699, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522811, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056522953, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056523024, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056523023, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056530806, "dur":7616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetStatsReporting.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056538490, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056542950, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.NetworkProfiler.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056546320, "dur":3201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056549641, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056552128, "dur":5920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Tools.Common.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056558094, "dur":4414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Multiplayer.Samples.Utilities.RNSM.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056562594, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056564339, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1727458056564450, "dur":7305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Netcode.Components.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056571832, "dur":4636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1727458056576535, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1727458056580344, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1727458056584287, "dur":10612124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1727458056511436, "dur":6358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1727458056517795, "dur":4457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1727458056522257, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1727458056522508, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1727458056522588, "dur":73, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1727458056522670, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1727458056522842, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1727458056523194, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Multiplay.Sqp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1727458056523194, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Services.Multiplay.Sqp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1727458056584853, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Services.Multiplay.Sqp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1727458056588972, "dur":10607430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056511459, "dur":6343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056517802, "dur":4458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522276, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.45f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522265, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522517, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522614, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522614, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project.exe" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522671, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522757, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056522860, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1727458056523006, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":16, "ts":1727458056523060, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Timot\\VR Lab Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1727458056523059, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/VR Lab Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1727458056594502, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/VR Lab Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1727458056598220, "dur":10598170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1727458067216302, "dur":1231, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

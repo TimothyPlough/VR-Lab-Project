@@ -5,7 +5,28 @@ using UnityEngine;
 
 public class playerNetworkScript : NetworkBehaviour
 {
-    
+    private NetworkVariable<customNetworkVarData> networkVarTst = new NetworkVariable<customNetworkVarData>(new customNetworkVarData
+    {
+        intTst = 1
+    }, NetworkVariableReadPermission.Everyone, NetworkVariableWritePermission.Owner);
+
+    public override void OnNetworkSpawn()
+    {
+        networkVarTst.OnValueChanged += (customNetworkVarData previousValue, customNetworkVarData newValue) =>
+        {
+            Debug.Log("ClientID " + OwnerClientId + " Num: " + newValue.intTst);
+        };
+    }
+
+    public struct customNetworkVarData : INetworkSerializable
+    {
+        public int intTst;
+
+        public void NetworkSerialize<T>(BufferSerializer<T> serializer) where T : IReaderWriter
+        {
+            serializer.SerializeValue(ref intTst);
+        }
+    }
 
     // Update is called once per frame
     private void Update()
@@ -31,6 +52,14 @@ public class playerNetworkScript : NetworkBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             moveDir.x = +1f;
+        }
+
+        if (Input.GetKey(KeyCode.T))
+        {
+            networkVarTst.Value = new customNetworkVarData
+            {
+                intTst = Random.Range(0, 100)
+            };
         }
 
         float moveSpeed = 3f;
