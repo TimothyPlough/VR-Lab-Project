@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638630505234312293
-    m_Hash: 3642933889
+      ticks: 638635849620000000
+    m_Hash: 3958224512
   m_LockFileStatus:
     m_FilePath: C:/Users/Timot/VR Lab Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638630505234432705
-    m_Hash: 1513595769
+      ticks: 638635850360000000
+    m_Hash: 3022617538
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/Timot/VR Lab Project/Packages
-m_EditorVersion: 2022.3.45f1 (a13dfa44d684)
+m_EditorVersion: 2022.3.48f1 (8bf49c377ebf)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.5.1
   testable: 0
@@ -120,10 +120,9 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     compatible:
-    - 2.4.4
     - 2.5.1
     - 2.5.2
-    recommended: 2.4.4
+    recommended: 2.5.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -161,7 +160,7 @@ m_ResolvedPackages:
     revision: 470a7a1321fe499cf5055d6b1d64da3a08c8dcbc
     path: 
   unityLifecycle:
-    version: 2.4.4
+    version: 2.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -330,7 +329,7 @@ m_ResolvedPackages:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
   - name: com.unity.netcode.gameobjects
-    version: 1.10.0
+    version: 1.11.0
   - name: com.unity.transport
     version: 1.5.0
   - name: com.unity.services.relay
@@ -499,12 +498,12 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-- packageId: com.unity.netcode.gameobjects@1.10.0
+- packageId: com.unity.netcode.gameobjects@1.11.0
   testable: 0
   isDirectDependency: 1
-  version: 1.10.0
+  version: 1.11.0
   source: 1
-  resolvedPath: C:\Users\Timot\VR Lab Project\Library\PackageCache\com.unity.netcode.gameobjects@1.10.0
+  resolvedPath: C:\Users\Timot\VR Lab Project\Library\PackageCache\com.unity.netcode.gameobjects@1.11.0
   assetPath: Packages/com.unity.netcode.gameobjects
   name: com.unity.netcode.gameobjects
   displayName: Netcode for GameObjects
@@ -513,7 +512,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: asset
   description: Netcode for GameObjects is a high-level netcode SDK that provides
     networking capabilities to GameObject/MonoBehaviour workflows within Unity and
     sits on top of underlying transport layer.
@@ -556,9 +555,8 @@ m_ResolvedPackages:
     - 2.0.0-pre.4
     - 2.0.0
     compatible:
-    - 1.10.0
     - 1.11.0
-    recommended: 1.10.0
+    recommended: 1.11.0
     deprecated: []
   dependencies:
   - name: com.unity.transport
@@ -595,16 +593,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638575275910000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@1.10/manual/index.html
+  datePublishedTicks: 638599247780000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@1.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.netcode.gameobjects.git
-    revision: a342c8ddce87ae46a30dffbebb8f87ac364c0a87
+    revision: e3303ba66b4a642ccf0bc72104107e1b8e1ebe1c
     path: 
   unityLifecycle:
-    version: 1.10.0
+    version: 1.11.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -653,17 +651,6 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     compatible:
-    - 1.1.0
-    - 1.1.1
-    - 1.2.0-exp.1
-    - 1.2.1-exp.2
-    - 1.2.1-exp.3
-    - 1.2.1-exp.4
-    - 1.2.1-exp.5
-    - 1.2.1-exp.7
-    - 1.2.1
-    - 1.2.2
-    - 1.2.4
     - 1.2.5
     recommended: 1.2.5
     deprecated: []
@@ -741,7 +728,7 @@ m_ResolvedPackages:
     revision: 4f944de3f1379ee882b7f00dc176ac64d0b013fb
     path: 
   unityLifecycle:
-    version: 1.1.0
+    version: 1.2.5
     nextVersion: 
     recommendedVersion: 1.2.2
     isDeprecated: 0
@@ -884,7 +871,6 @@ m_ResolvedPackages:
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
-    - 3.0.6
     - 3.0.7
     - 3.0.8
     - 3.0.9
@@ -937,7 +923,7 @@ m_ResolvedPackages:
     revision: 0af193626b4f76795f7cb6c9b0f55389d0e4b1d6
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5728,4 +5714,4 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-m_BuiltInPackagesHash: 4bf036992e66df8542a0e2a381a825a4a2452a54
+m_BuiltInPackagesHash: f8c75c7cb84b065cb30c3dd708a8c60fdae5793a

@@ -5,6 +5,10 @@ ScriptsOnlyBuild:
     - playerNetworkScript
     Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll:
     - Unity.Multiplayer.Samples.Utilities.ClientAuthority.ClientNetworkTransform
+    Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll:
+    - Unity.Multiplayer.Tools.NetStatsMonitor.RuntimeNetStatsMonitor
+    Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll:
+    - Unity.Multiplayer.Tools.NetStatsMonitor.NetStatsMonitorConfiguration
     Unity.Netcode.Editor.dll:
     - Unity.Netcode.Editor.Configuration.NetcodeForGameObjectsProjectSettings
     Unity.Netcode.Runtime.dll:
@@ -40,6 +44,17 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
+    Unity.Multiplayer.Tools.NetStats:
+    - Unity.Multiplayer.Tools.NetStats.MetricId
+    Unity.Multiplayer.Tools.NetStatsMonitor.Configuration:
+    - Unity.Multiplayer.Tools.NetStatsMonitor.CounterConfiguration
+    - Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration
+    - Unity.Multiplayer.Tools.NetStatsMonitor.DisplayElementConfiguration/SerializedStat
+    - Unity.Multiplayer.Tools.NetStatsMonitor.ExponentialMovingAverageParams
+    - Unity.Multiplayer.Tools.NetStatsMonitor.GraphConfiguration
+    - Unity.Multiplayer.Tools.NetStatsMonitor.LineGraphConfiguration
+    - Unity.Multiplayer.Tools.NetStatsMonitor.PositionConfiguration
+    - Unity.Multiplayer.Tools.NetStatsMonitor.SimpleMovingAverageParams
     Unity.Netcode.Runtime:
     - Unity.Netcode.NetworkConfig
     - Unity.Netcode.NetworkPrefab
@@ -126,46 +141,52 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 650}
     - Class: 114
-      Script: {instanceID: 16734}
+      Script: {instanceID: 16700}
     - Class: 114
-      Script: {instanceID: 18168}
+      Script: {instanceID: 16740}
     - Class: 114
-      Script: {instanceID: 19098}
+      Script: {instanceID: 17276}
     - Class: 114
-      Script: {instanceID: 20694}
+      Script: {instanceID: 17856}
     - Class: 114
-      Script: {instanceID: 21612}
+      Script: {instanceID: 18236}
     - Class: 114
-      Script: {instanceID: 23260}
+      Script: {instanceID: 19218}
     - Class: 114
-      Script: {instanceID: 23310}
+      Script: {instanceID: 20916}
     - Class: 114
-      Script: {instanceID: 23654}
+      Script: {instanceID: 21898}
     - Class: 114
-      Script: {instanceID: 23846}
+      Script: {instanceID: 23624}
     - Class: 114
-      Script: {instanceID: 25000}
+      Script: {instanceID: 23676}
     - Class: 114
-      Script: {instanceID: 25258}
+      Script: {instanceID: 24046}
     - Class: 114
-      Script: {instanceID: 25276}
+      Script: {instanceID: 24244}
     - Class: 114
-      Script: {instanceID: 25314}
+      Script: {instanceID: 25474}
     - Class: 114
-      Script: {instanceID: 25452}
+      Script: {instanceID: 25752}
     - Class: 114
-      Script: {instanceID: 25978}
+      Script: {instanceID: 25772}
     - Class: 114
-      Script: {instanceID: 26472}
+      Script: {instanceID: 25812}
     - Class: 114
-      Script: {instanceID: 26868}
+      Script: {instanceID: 25960}
     - Class: 114
-      Script: {instanceID: 28212}
+      Script: {instanceID: 26506}
     - Class: 114
-      Script: {instanceID: 31130}
+      Script: {instanceID: 26642}
+    - Class: 114
+      Script: {instanceID: 27448}
+    - Class: 114
+      Script: {instanceID: 28850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -190,6 +211,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -222,10 +249,22 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 052071c51baef81dee3a661157caf8ad
+    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    className: ClientNetworkTransform
+  - hash:
+      serializedVersion: 2
       Hash: ad49e20f31ed572e586aa8bbaafb591b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4b2325a6cb73414b1cdf7fa93aa1a8af
+    assemblyName: Unity.Multiplayer.Samples.Utilities.RNSM
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetStatsMonitorCustomization
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -384,6 +423,12 @@ ScriptsOnlyBuild:
     className: EnvMapAnimator
   - hash:
       serializedVersion: 2
+      Hash: adba4d9b143ca2bbfbc9a990add16303
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetcodeHooks
+  - hash:
+      serializedVersion: 2
       Hash: 682dfc653b22feea53b38adb3bc66414
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -474,6 +519,18 @@ ScriptsOnlyBuild:
     className: UnityOnBeginDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: d6767ea87b4ffd1fa792b75caad038ee
+    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    className: ClientNetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 27e9c9543474c4741f0915c3ec5c7b10
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetworkObjectSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -498,6 +555,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnter2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: bbbf93e762c4f3c9da3ad2d8fed9c5bf
+    assemblyName: Unity.Tutorials.Core
+    namespaceName: Unity.Tutorials.Core
+    className: SceneObjectGuid
+  - hash:
+      serializedVersion: 2
       Hash: 0dd14e314956b0d0d83ffcffe60aa46f
     assemblyName: Assembly-CSharp
     namespaceName: TMPro
@@ -508,6 +571,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8a572632c59ef288d1a8e9060345e216
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: DontDestroyOnLoad
   - hash:
       serializedVersion: 2
       Hash: 9dd54ce33440072d6692a67e0c384ad1
@@ -532,6 +601,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5eee1f0e53861510a4862c8ec36d5f55
+    assemblyName: Unity.Services.Relay
+    namespaceName: Unity.Services.Relay.Scheduler
+    className: TaskSchedulerWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: 3450efd9643dffa91dd418da41b086bb
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: ClientLoadingScreen
   - hash:
       serializedVersion: 2
       Hash: 9637dcdf3068a91dfe653e61bb82f13d
@@ -702,6 +783,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: e438cfd2bd03451ae4707a096c8905d3
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: LoadingProgressManager
+  - hash:
+      serializedVersion: 2
       Hash: 02a47340661d2ea7c6d30e292cfef403
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -730,6 +817,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c2e17d77d48bdfa31d7c40464bc5df0d
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: 
+    className: EditorChildSceneLoader
   - hash:
       serializedVersion: 2
       Hash: cdbf629ac32f9205d78041dd435d1f6e
@@ -880,6 +973,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: dfb6913502ec81bb8fa5c3492539ab21
+    assemblyName: Unity.Multiplayer.Samples.Utilities.RNSM
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: AutoHide
+  - hash:
+      serializedVersion: 2
+      Hash: a600e45f4803338e1f942aee7817894a
+    assemblyName: Unity.Services.Relay
+    namespaceName: Unity.Services.Relay.Scheduler
+    className: TaskSchedulerThreaded
   - hash:
       serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
@@ -1098,6 +1203,12 @@ ScriptsOnlyBuild:
     className: WarpTextExample
   - hash:
       serializedVersion: 2
+      Hash: a2fbf85f9a7c7230eeb55234c8da773a
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: SceneLoaderWrapper
+  - hash:
+      serializedVersion: 2
       Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1140,10 +1251,10 @@ ScriptsOnlyBuild:
     className: NetworkRigidbody
   - hash:
       serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
+      Hash: 215d8fb7053740d33e2bec091e5fe449
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: ServerAdditiveSceneLoader
   - hash:
       serializedVersion: 2
       Hash: 33656f83bb0079184b2206a69690ec46
@@ -1284,7 +1395,7 @@ ScriptsOnlyBuild:
     className: TestDataGeneratorComponent
   - hash:
       serializedVersion: 2
-      Hash: 5fad2b3f827091e1a993f29cc29c834e
+      Hash: 475eab42a7fb9e1b26ce347bb3d9399d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: playerNetworkScript
@@ -1302,6 +1413,12 @@ ScriptsOnlyBuild:
     className: VertexZoom
   - hash:
       serializedVersion: 2
+      Hash: 26c82ff03f1ea665dbb44d0bb1cdcfd3
+    assemblyName: Unity.Multiplayer.Samples.Utilities
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: NetworkedLoadingProgressTracker
+  - hash:
+      serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1312,103 +1429,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 27e9c9543474c4741f0915c3ec5c7b10
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: NetworkObjectSpawner
-  - hash:
-      serializedVersion: 2
-      Hash: a600e45f4803338e1f942aee7817894a
-    assemblyName: Unity.Services.Relay
-    namespaceName: Unity.Services.Relay.Scheduler
-    className: TaskSchedulerThreaded
-  - hash:
-      serializedVersion: 2
-      Hash: 4b2325a6cb73414b1cdf7fa93aa1a8af
-    assemblyName: Unity.Multiplayer.Samples.Utilities.RNSM
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: NetStatsMonitorCustomization
-  - hash:
-      serializedVersion: 2
-      Hash: a2fbf85f9a7c7230eeb55234c8da773a
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: SceneLoaderWrapper
-  - hash:
-      serializedVersion: 2
-      Hash: e438cfd2bd03451ae4707a096c8905d3
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: LoadingProgressManager
-  - hash:
-      serializedVersion: 2
-      Hash: 215d8fb7053740d33e2bec091e5fe449
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: ServerAdditiveSceneLoader
-  - hash:
-      serializedVersion: 2
-      Hash: c2e17d77d48bdfa31d7c40464bc5df0d
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: 
-    className: EditorChildSceneLoader
-  - hash:
-      serializedVersion: 2
-      Hash: bbbf93e762c4f3c9da3ad2d8fed9c5bf
-    assemblyName: Unity.Tutorials.Core
-    namespaceName: Unity.Tutorials.Core
-    className: SceneObjectGuid
-  - hash:
-      serializedVersion: 2
-      Hash: adba4d9b143ca2bbfbc9a990add16303
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: NetcodeHooks
-  - hash:
-      serializedVersion: 2
-      Hash: dfb6913502ec81bb8fa5c3492539ab21
-    assemblyName: Unity.Multiplayer.Samples.Utilities.RNSM
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: AutoHide
-  - hash:
-      serializedVersion: 2
-      Hash: 8a572632c59ef288d1a8e9060345e216
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: DontDestroyOnLoad
-  - hash:
-      serializedVersion: 2
-      Hash: d6767ea87b4ffd1fa792b75caad038ee
-    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
-    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
-    className: ClientNetworkAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 26c82ff03f1ea665dbb44d0bb1cdcfd3
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: NetworkedLoadingProgressTracker
-  - hash:
-      serializedVersion: 2
-      Hash: 5eee1f0e53861510a4862c8ec36d5f55
-    assemblyName: Unity.Services.Relay
-    namespaceName: Unity.Services.Relay.Scheduler
-    className: TaskSchedulerWebGL
-  - hash:
-      serializedVersion: 2
-      Hash: 3450efd9643dffa91dd418da41b086bb
-    assemblyName: Unity.Multiplayer.Samples.Utilities
-    namespaceName: Unity.Multiplayer.Samples.Utilities
-    className: ClientLoadingScreen
-  - hash:
-      serializedVersion: 2
-      Hash: 052071c51baef81dee3a661157caf8ad
-    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
-    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
-    className: ClientNetworkTransform
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Timot/VR Lab Project/Builds/VR Lab Project.exe
+  playerPath: C:/Users/night/Documents/Unity Projects/VR Safety Lab/Builds/VR Lab
+    Project.exe

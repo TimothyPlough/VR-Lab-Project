@@ -5,6 +5,12 @@ using UnityEngine;
 
 public class playerNetworkScript : NetworkBehaviour
 {
+
+
+    [SerializeField] private Transform SpawnedObjectPrefab;
+    private Transform SpawnedObjectTransform;
+
+
     private NetworkVariable<customNetworkVarData> networkVarTst = new NetworkVariable<customNetworkVarData>(new customNetworkVarData
     {
         intTst = 1
@@ -37,6 +43,8 @@ public class playerNetworkScript : NetworkBehaviour
         }
         Vector3 moveDir = new Vector3(0, 0, 0);
 
+
+        
         if (Input.GetKey(KeyCode.W))
         {
             moveDir.z = +1f;
@@ -54,15 +62,28 @@ public class playerNetworkScript : NetworkBehaviour
             moveDir.x = +1f;
         }
 
-        if (Input.GetKey(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             networkVarTst.Value = new customNetworkVarData
             {
                 intTst = Random.Range(0, 100)
             };
+            SpawnedObjectTransform = Instantiate(SpawnedObjectPrefab);
+            SpawnedObjectTransform.GetComponent<NetworkObject>().Spawn(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            Destroy(SpawnedObjectTransform.gameObject);
         }
 
         float moveSpeed = 3f;
         transform.position += moveDir * moveSpeed * Time.deltaTime;
+    }
+
+    [ClientRpc]
+    private void TestClientRpc()
+    {
+
     }
 }
