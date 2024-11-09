@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7483B4B2-EF2E-0601-FEFA-6392A2EB254E}|Assembly-CSharp.csproj|c:\\users\\night\\desktop\\vr-lab-project-vr-devlopment-branch\\assets\\networkmenu\\mainmenuscript1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483B4B2-EF2E-0601-FEFA-6392A2EB254E}|Assembly-CSharp.csproj|solutionrelative:assets\\networkmenu\\mainmenuscript1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483B4B2-EF2E-0601-FEFA-6392A2EB254E}|Assembly-CSharp.csproj|c:\\users\\night\\desktop\\vr-lab-project-vr-devlopment-branch\\assets\\networkmenu\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483B4B2-EF2E-0601-FEFA-6392A2EB254E}|Assembly-CSharp.csproj|solutionrelative:assets\\networkmenu\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\NetworkManagerUIScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\networkMenu\\NetworkManagerUIScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkTransformClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\networkTransformClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Library\\PackageCache\\com.unity.xr.management@4.5.0\\Runtime\\XRManagerSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.management@4.5.0\\Runtime\\XRManagerSettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Library\\PackageCache\\com.unity.xr.oculus@4.2.0\\Runtime\\OculusDevelopment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.xr.oculus@4.2.0\\Runtime\\OculusDevelopment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Network Prefabs\\NetworkPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Network Prefabs\\NetworkPlayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Scripts2\\NetworkManagerUIScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts2\\NetworkManagerUIScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Scripts\\Player Scripts\\playerNetworkScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player Scripts\\playerNetworkScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainMenuScript1.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\mainMenuScript1.cs",
+              "RelativeDocumentMoniker": "Assets\\networkMenu\\mainMenuScript1.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\mainMenuScript1.cs",
+              "RelativeToolTip": "Assets\\networkMenu\\mainMenuScript1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:41:17.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mainMenuScript.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\mainMenuScript.cs",
+              "RelativeDocumentMoniker": "Assets\\networkMenu\\mainMenuScript.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\mainMenuScript.cs",
+              "RelativeToolTip": "Assets\\networkMenu\\mainMenuScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:43:16.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkManagerUIScript.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\NetworkManagerUIScript.cs",
+              "RelativeDocumentMoniker": "Assets\\networkMenu\\NetworkManagerUIScript.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkMenu\\NetworkManagerUIScript.cs",
+              "RelativeToolTip": "Assets\\networkMenu\\NetworkManagerUIScript.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:42:37.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OculusDevelopment.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Library\\PackageCache\\com.unity.xr.oculus@4.2.0\\Runtime\\OculusDevelopment.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.oculus@4.2.0\\Runtime\\OculusDevelopment.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Library\\PackageCache\\com.unity.xr.oculus@4.2.0\\Runtime\\OculusDevelopment.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.oculus@4.2.0\\Runtime\\OculusDevelopment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:15:28.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "XRManagerSettings.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Library\\PackageCache\\com.unity.xr.management@4.5.0\\Runtime\\XRManagerSettings.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.xr.management@4.5.0\\Runtime\\XRManagerSettings.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Library\\PackageCache\\com.unity.xr.management@4.5.0\\Runtime\\XRManagerSettings.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.xr.management@4.5.0\\Runtime\\XRManagerSettings.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAEwLMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:15:25.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "networkTransformClient.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkTransformClient.cs",
+              "RelativeDocumentMoniker": "Assets\\networkTransformClient.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\networkTransformClient.cs",
+              "RelativeToolTip": "Assets\\networkTransformClient.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:07:24.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Network Prefabs\\NetworkPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Network Prefabs\\NetworkPlayer.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Network Prefabs\\NetworkPlayer.cs",
+              "RelativeToolTip": "Assets\\Network Prefabs\\NetworkPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T20:42:58.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NetworkManagerUIScript.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Scripts2\\NetworkManagerUIScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts2\\NetworkManagerUIScript.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Scripts2\\NetworkManagerUIScript.cs",
+              "RelativeToolTip": "Assets\\Scripts2\\NetworkManagerUIScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T01:04:21.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "playerNetworkScript.cs",
+              "DocumentMoniker": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Scripts\\Player Scripts\\playerNetworkScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\playerNetworkScript.cs",
+              "ToolTip": "C:\\Users\\night\\Desktop\\VR-Lab-Project-VR-Devlopment-Branch\\Assets\\Scripts\\Player Scripts\\playerNetworkScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\playerNetworkScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T00:53:21.792Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+Using template 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\UnityManifest.xml'
+
+android.hardware.vulkan.version was added because:
+	One of the graphics devices was Vulkan
+android.permission.INTERNET was added because:
+	UnityEngine.Networking was present in:
+		Unity.Services.Relay-FeaturesChecked.txt
+		Unity.Services.Core.Networking-FeaturesChecked.txt
+		Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt
+		Unity.Services.Core.Internal-FeaturesChecked.txt
+		Unity.Services.QoS-FeaturesChecked.txt
+		Unity.InputSystem-FeaturesChecked.txt
+		Unity.Services.Authentication-FeaturesChecked.txt
+	System.Net.Sockets was present in:
+		unity-websocket-sharp-FeaturesChecked.txt
+		Unity.Services.QoS-FeaturesChecked.txt
+		websocket-sharp-FeaturesChecked.txt
+	UnityEngine.Network was present in:
+		Unity.Services.Relay-FeaturesChecked.txt
+		Unity.Services.Core.Networking-FeaturesChecked.txt
+		Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt
+		Unity.Services.Core.Internal-FeaturesChecked.txt
+		Unity.Services.QoS-FeaturesChecked.txt
+		Unity.InputSystem-FeaturesChecked.txt
+		Unity.Services.Authentication-FeaturesChecked.txt
+	UnityEngine.Networking.UnityWebRequest was present in:
+		Unity.Services.Relay-FeaturesChecked.txt
+		Unity.Services.Core.Networking-FeaturesChecked.txt
+		Unity.Services.Core.Internal-FeaturesChecked.txt
+		Unity.Services.QoS-FeaturesChecked.txt
+		Unity.Services.Authentication-FeaturesChecked.txt
+	Development player
+android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
+	UnityEngine.Input::get_touches was present in:
+		Unity.Multiplayer.Samples.Utilities.RNSM-FeaturesChecked.txt
+	UnityEngine.Input::GetTouch was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Unity.XR.Interaction.Toolkit-FeaturesChecked.txt
+		UnityEngine.UI-FeaturesChecked.txt
+	UnityEngine.Input::get_touchCount was present in:
+		Assembly-CSharp-FeaturesChecked.txt
+		Unity.Multiplayer.Samples.Utilities.RNSM-FeaturesChecked.txt
+		Unity.XR.Interaction.Toolkit-FeaturesChecked.txt
+		UnityEngine.UI-FeaturesChecked.txt

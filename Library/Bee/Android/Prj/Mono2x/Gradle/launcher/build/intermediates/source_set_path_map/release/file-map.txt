@@ -1,0 +1,10 @@
+com.DefaultCompany.VRLabProject.launcher-pngs-0 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
+com.DefaultCompany.VRLabProject.launcher-resValues-1 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
+com.DefaultCompany.VRLabProject.launcher-rs-2 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
+com.DefaultCompany.VRLabProject.launcher-mergeReleaseResources-3 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.DefaultCompany.VRLabProject.launcher-mergeReleaseResources-4 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.DefaultCompany.VRLabProject.launcher-merged_res-5 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
+com.DefaultCompany.VRLabProject.launcher-main-6 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
+com.DefaultCompany.VRLabProject.launcher-release-7 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
+com.DefaultCompany.VRLabProject.launcher-packaged_res-8 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release
+com.DefaultCompany.VRLabProject.launcher-packaged_res-9 C:\Users\night\Desktop\VR-Lab-Project-VR-Devlopment-Branch\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\packaged_res\release

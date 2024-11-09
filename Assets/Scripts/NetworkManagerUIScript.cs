@@ -7,20 +7,24 @@ using UnityEngine.UI;
 public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] private Button serverBtn; // SerializeField - allows us to drag with this field in the editor
-    [SerializeField] private Button hostBtn;
-    [SerializeField] private Button clientBtn;
+    
 
-    private void Awake()
+    private void Start()
     {
-        serverBtn.onClick.AddListener(() => {
+        NetworkManager.Singleton.StartHost();
+
+        if (Input.GetKey(KeyCode.S))
+        {
             NetworkManager.Singleton.StartServer();
-        });
-        hostBtn.onClick.AddListener(() => {
+        };
+
+        if (Input.GetKey(KeyCode.H))
+        {
             NetworkManager.Singleton.StartHost();
-        });
-        clientBtn.onClick.AddListener(() => {
+        };
+        if (Input.GetKey(KeyCode.C))
+        {
             NetworkManager.Singleton.StartClient();
-        });
+        };
     }
 }
