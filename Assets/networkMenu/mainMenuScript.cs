@@ -21,19 +21,19 @@ public class mainMenuScript : MonoBehaviour
             if (args[i] == "launch-as-server")
             {
                 staticValue.valueToKeep = 2;
-                NetworkManager.Singleton.Shutdown();
+                //NetworkManager.Singleton.Shutdown();
                 SceneManager.LoadScene(sceneName: "test scene");
             }
         }
 
         hostBtn.onClick.AddListener(() => {
             staticValue.valueToKeep = 0;
-            NetworkManager.Singleton.Shutdown();
+            //NetworkManager.Singleton.Shutdown();
             SceneManager.LoadScene(sceneName: "test scene");
         });
         clientBtn.onClick.AddListener(() => {
             staticValue.valueToKeep = 1;
-            NetworkManager.Singleton.Shutdown();
+            //NetworkManager.Singleton.Shutdown();
             SceneManager.LoadScene(sceneName: "test scene");
         });
     }

@@ -573,7 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6168995222708585358, guid: 6c5d5bb7c7554f5438ee7e06c69727ef, type: 3}
       propertyPath: ConnectionData.Address
-      value: 192.168.169.158
+      value: 192.168.105.242
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1234,7 +1234,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2016418724}
-  - component: {fileID: 2016418725}
   - component: {fileID: 2016418726}
   m_Layer: 0
   m_Name: Networker
@@ -1258,18 +1257,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2016418725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2016418723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50a1d766070ee2741b9e69f218585404, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2016418726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1406,8 +1393,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1203964926109464280}
   - {fileID: 2311172420929043899}
-  - {fileID: 892240501}
   - {fileID: 1763987558}
+  - {fileID: 892240501}
   - {fileID: 411974299}
   - {fileID: 1081137507}
   - {fileID: 1115756095}
