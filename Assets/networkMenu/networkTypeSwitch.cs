@@ -19,8 +19,11 @@ public class networkStartScript : MonoBehaviour
             case 1:
                 NetworkManager.Singleton.StartClient();
                 break;
-            default:
+            case 2:
                 NetworkManager.Singleton.StartServer();
+                break;
+            default:
+                NetworkManager.Singleton.StartClient();
                 break;
         }
     }
