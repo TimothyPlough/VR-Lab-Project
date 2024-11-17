@@ -9,7 +9,7 @@ public class networkStartScript : MonoBehaviour
 {
     private int bttnPress = staticValue.valueToKeep;
 
-    private void Awake()
+    private void Start()
     {
         switch (bttnPress)
         {

@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638670471030329018
+      ticks: 638674780922180243
     m_Hash: 2880916859
   m_LockFileStatus:
     m_FilePath: C:/Users/Timot/VR Lab Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638670471030339631
+      ticks: 638674780922190389
     m_Hash: 790181756
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -1567,6 +1567,7 @@ m_ResolvedPackages:
     - 3.0.4
     - 3.0.5
     - 3.0.6
+    - 3.0.7
     compatible:
     - 2.6.3
     - 3.0.0-pre.1
@@ -1577,6 +1578,7 @@ m_ResolvedPackages:
     - 3.0.4
     - 3.0.5
     - 3.0.6
+    - 3.0.7
     recommended: 2.6.3
     deprecated: []
   dependencies:
