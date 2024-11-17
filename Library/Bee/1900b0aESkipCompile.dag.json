@@ -27,7 +27,7 @@
       "DisplayName": "Writing 6097564273297756792.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 8419,
+      "PayloadLength": 10124,
       "PayloadDebugContentSnippet": "-a=\"C:\\Users\\Timot\\VR Lab Proj",
       "Inputs": [],
       "Outputs": [
@@ -45,6 +45,9 @@
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
         "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll",
         "Library/ScriptAssemblies/Unity.Multiplayer.Samples.Utilities.dll",
@@ -92,8 +95,23 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/Unity.XR.CoreUtils.dll",
+        "Library/ScriptAssemblies/Unity.XR.Hands.dll",
+        "Library/ScriptAssemblies/Unity.XR.Hands.Samples.VisualizerSample.dll",
+        "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
+        "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
+        "Library/ScriptAssemblies/Unity.XR.Management.dll",
+        "Library/ScriptAssemblies/Unity.XR.Oculus.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
+        "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+        "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
         "Library/ScriptAssemblies/unity-websocket-sharp.dll",
         "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
         "Library/PackageCache/com.unity.burst@1.8.17/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
@@ -313,6 +331,15 @@
       "File": "Library/ScriptAssemblies/Unity.Collections.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
     },
     {
@@ -454,10 +481,55 @@
       "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.XR.CoreUtils.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Hands.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Hands.Samples.VisualizerSample.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Management.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Oculus.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
     },
     {
       "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
     }
   ],
   "GlobSignatures": [

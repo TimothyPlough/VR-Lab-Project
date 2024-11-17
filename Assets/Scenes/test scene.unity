@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b4413a0cb871dc4baeae9cdeedd642e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b4413a0cb871dc4baeae9cdeedd642e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -531,6 +531,10 @@ PrefabInstance:
       propertyPath: NetworkConfig.PlayerPrefab
       value: 
       objectReference: {fileID: 5627918348030452591, guid: 425a81669dfe0c3489a1939ede3730ff, type: 3}
+    - target: {fileID: 877741284223168254, guid: 6c5d5bb7c7554f5438ee7e06c69727ef, type: 3}
+      propertyPath: NetworkConfig.Prefabs.NetworkPrefabsLists.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3520123214696829551, guid: 6c5d5bb7c7554f5438ee7e06c69727ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -570,6 +574,10 @@ PrefabInstance:
     - target: {fileID: 3520123214696829551, guid: 6c5d5bb7c7554f5438ee7e06c69727ef, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168995222708585358, guid: 6c5d5bb7c7554f5438ee7e06c69727ef, type: 3}
+      propertyPath: ConnectionData.Port
+      value: 7778
       objectReference: {fileID: 0}
     - target: {fileID: 6168995222708585358, guid: 6c5d5bb7c7554f5438ee7e06c69727ef, type: 3}
       propertyPath: ConnectionData.Address
