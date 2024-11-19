@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638674780922180243
+      ticks: 638674817506836136
     m_Hash: 2880916859
   m_LockFileStatus:
     m_FilePath: C:/Users/Timot/VR Lab Project/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638674780922190389
+      ticks: 638674817506836136
     m_Hash: 790181756
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -4962,7 +4962,7 @@ m_ResolvedPackages:
     - 2.2.1
     - 2.3.0
     - 2.4.0
-    recommended: 2.3.0
+    recommended: 2.4.0
     deprecated: []
   dependencies:
   - name: com.unity.burst
@@ -5008,7 +5008,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.5.0
     nextVersion: 
-    recommendedVersion: 2.3.0
+    recommendedVersion: 2.4.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
